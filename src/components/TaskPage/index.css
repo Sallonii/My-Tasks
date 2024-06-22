@@ -1,0 +1,86 @@
+.main-container {
+  min-height: 100vh;
+  background-color: black;
+  padding: 2px;
+  display: flex;
+}
+.create-task-container {
+  background-color: #181c20;
+  width: 40%;
+  padding: 40px;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.create-heading {
+  text-align: center;
+  color: #f3aa4e;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 10px;
+}
+.label-element {
+  color: white;
+  margin-bottom: 5px;
+}
+.input-element {
+  padding: 7px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 15px;
+}
+.add-task-button {
+  background-color: #f3aa4e;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  padding: 10px;
+  width: 90px;
+  margin: 10px;
+  cursor: pointer;
+}
+.select-element {
+  padding: 5px;
+  cursor: pointer;
+}
+.task-display-container {
+  color: white;
+  width: 60%;
+  padding: 20px;
+}
+.tabs-ul-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.task-list-item-container {
+  list-style-type: none;
+  background-color: #181c20;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+ul {
+  padding: 0;
+}
+.tag-container {
+  border-style: solid;
+  background-color: #e9ad63;
+  border: none;
+  padding: 7px;
+  border-radius: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.task-heading {
+  font-size: 20px;
+}
